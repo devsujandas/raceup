@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/swiper.css"],"sourcesContent":[".swiper {\n  width: 100%;\n  height: 100%;\n}\n\n.swiper-slide {\n  width: 100%;\n  height: 100%;\n}\n\n.swiper-wrapper {\n  height: 100%;\n}\n\n.swiper-pagination {\n  position: absolute;\n  right: 40px;\n  height: 200px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  bottom: auto;\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.swiper-pagination-bullet {\n  width: 50px;\n  height: 50px;\n  background: none;\n  color: white;\n  opacity: 0.5;\n  display: grid;\n  place-items: center;\n  font-family: Poppins, sans-serif;\n  margin: 0;\n  border-radius: 50%;\n}\n\n.swiper-pagination-bullet span {\n  font-size: 14px;\n  font-weight: 600;\n}\n\n.swiper-pagination-bullet-active {\n  opacity: 1;\n  font-size: 16px;\n  border: 1px solid white;\n}\n"],"names":[],"mappings":"AAAA;;;;;AAUA;;;;AAIA;;;;;;;;;;;;AAYA;;;;;;;;;;;;;AAaA;;;;;AAKA"}}]
+}

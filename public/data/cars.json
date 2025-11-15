@@ -1,0 +1,79 @@
+{
+  "cars": [
+    {
+      "id": "lamborghini",
+      "name": "Lamborghini Aventador",
+      "color": "yellow",
+      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-1-D1vxyfnozhmD6YPul1K4gXEGz3U3nO.png",
+      "description": "The Lamborghini Aventador is a masterpiece of Italian engineering, representing the pinnacle of supercar performance and design.",
+      "specs": [
+        { "label": "Top Speed", "value": "302 MPH" },
+        { "label": "Acceleration", "value": "0-100 KMPH in 2.9s" },
+        { "label": "Power Output", "value": "750 KW" },
+        { "label": "Engine", "value": "V12" },
+        { "label": "Year", "value": "2011-Present" },
+        { "label": "Torque", "value": "690 NM" }
+      ],
+      "features": [
+        "Carbon fiber body",
+        "All-wheel drive",
+        "Advanced suspension",
+        "Cutting-edge technology",
+        "Iconic design",
+        "Active aerodynamics"
+      ],
+      "textColor": "text-yellow-400",
+      "colorBg": "from-yellow-400 to-yellow-600"
+    },
+    {
+      "id": "bugatti",
+      "name": "Bugatti Chiron",
+      "color": "blue",
+      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-3-6fAcWNdizNQI666CQ0BwxgICZ5vXHm.png",
+      "description": "The Bugatti Chiron is the definition of hyperluxury and performance, combining breathtaking speed with unrivaled comfort.",
+      "specs": [
+        { "label": "Top Speed", "value": "304 MPH" },
+        { "label": "Acceleration", "value": "0-100 KMPH in 2.5s" },
+        { "label": "Power Output", "value": "1103 KW" },
+        { "label": "Engine", "value": "Quad-Turbo W16" },
+        { "label": "Year", "value": "2016-Present" },
+        { "label": "Torque", "value": "1480 NM" }
+      ],
+      "features": [
+        "Quad-turbo engine",
+        "Advanced aerodynamics",
+        "Luxurious interior",
+        "Precision engineering",
+        "Unmatched exclusivity",
+        "Hydraulic suspension"
+      ],
+      "textColor": "text-cyan-400",
+      "colorBg": "from-cyan-400 to-blue-600"
+    },
+    {
+      "id": "cadillac",
+      "name": "Classic Cadillac",
+      "color": "red",
+      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-2-fIVaahs7xYCqzjhl9wmMoJZ97Oz3w5.png",
+      "description": "A timeless classic that defined American automotive excellence and continues to captivate enthusiasts worldwide.",
+      "specs": [
+        { "label": "Top Speed", "value": "180 MPH" },
+        { "label": "Acceleration", "value": "0-100 KMPH in 8.5s" },
+        { "label": "Power Output", "value": "210 KW" },
+        { "label": "Engine", "value": "V8" },
+        { "label": "Year", "value": "1955-1960s" },
+        { "label": "Torque", "value": "450 NM" }
+      ],
+      "features": [
+        "Chrome details",
+        "Spacious interior",
+        "Classic design",
+        "American heritage",
+        "Timeless elegance",
+        "Premium upholstery"
+      ],
+      "textColor": "text-red-500",
+      "colorBg": "from-red-600 to-red-900"
+    }
+  ]
+}
