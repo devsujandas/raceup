@@ -985,6 +985,10 @@
     height: var(--cell-size);
   }
 
+  .h-1 {
+    height: calc(var(--spacing) * 1);
+  }
+
   .h-1\.5 {
     height: calc(var(--spacing) * 1.5);
   }
@@ -1035,6 +1039,18 @@
 
   .h-12 {
     height: calc(var(--spacing) * 12);
+  }
+
+  .h-14 {
+    height: calc(var(--spacing) * 14);
+  }
+
+  .h-15 {
+    height: calc(var(--spacing) * 15);
+  }
+
+  .h-16 {
+    height: calc(var(--spacing) * 16);
   }
 
   .h-72 {
@@ -1165,6 +1181,10 @@
     width: calc(var(--spacing) * 5);
   }
 
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
+
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
@@ -1175,6 +1195,18 @@
 
   .w-10 {
     width: calc(var(--spacing) * 10);
+  }
+
+  .w-14 {
+    width: calc(var(--spacing) * 14);
+  }
+
+  .w-15 {
+    width: calc(var(--spacing) * 15);
+  }
+
+  .w-16 {
+    width: calc(var(--spacing) * 16);
   }
 
   .w-64 {
@@ -2683,6 +2715,12 @@
 
   .group-focus-within\/menu-item\:opacity-100:is(:where(.group\/menu-item):focus-within *) {
     opacity: 1;
+  }
+
+  @media (hover: hover) {
+    .group-hover\:text-gray-300:is(:where(.group):hover *) {
+      color: var(--color-gray-300);
+    }
   }
 
   @media (hover: hover) {

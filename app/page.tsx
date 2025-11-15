@@ -73,9 +73,18 @@ export default function Home() {
       <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-10 py-5">
 
         {/* Logo */}
-        <Link href="/" className="font-script text-white text-2xl font-bold drop-shadow-lg hover:text-gray-300 transition">
-          RaceUp
-        </Link>
+<Link href="/" className="flex items-center - group">
+  <img
+    src="/logo.png"
+    alt="RaceUp Logo"
+    className="w-16 h-16 object-contain"
+  />
+
+  <span className="font-script text-white text-2xl font-bold drop-shadow-lg group-hover:text-gray-300 transition">
+    RaceUp
+  </span>
+</Link>
+
 
         {/* Menu Button */}
         <button 
@@ -278,12 +287,8 @@ function CarSlide({ car }: { car: (typeof cars)[0] }) {
   >
     Discover Now 
     <i className="fas fa-arrow-right text-xs sm:text-sm"></i>
-  </Link>
-</div>
-
-
-
-
+      </Link>
+      </div>
       </div>
     </div>
   )

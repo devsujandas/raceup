@@ -3,3 +3,20 @@
 [00:00:11.884] Server  WARN     ⚠ Cross origin request detected from 192.168.31.204 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
 [00:00:11.920] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:08.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:21.206] Server  LOG      ✓ Compiled in 197ms
+[00:02:23.647] Server  LOG      ✓ Compiled in 195ms
+[00:02:33.312] Server  LOG      ✓ Compiled in 372ms
+[00:02:34.302] Server  LOG      ✓ Compiled in 296ms
+[00:02:37.729] Server  LOG      ✓ Compiled in 285ms
+[00:02:44.130] Server  LOG      ✓ Compiled in 169ms
+[00:02:48.974] Server  LOG      ✓ Compiled in 131ms
+[00:02:51.945] Server  LOG      ✓ Compiled in 263ms
+[00:02:55.206] Server  LOG      ✓ Compiled in 268ms
+[00:03:31.475] Server  LOG      ✓ Compiled in 298ms
+[00:03:34.266] Server  LOG      ✓ Compiled in 212ms
+[00:03:43.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:41.050] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:11.231] Server  LOG      ✓ Compiled in 150ms
+[00:09:19.666] Server  LOG      ✓ Compiled in 177ms
+[00:09:23.692] Server  LOG      ✓ Compiled in 110ms

@@ -61,9 +61,18 @@ export default function CarPage() {
       {/* NAVBAR */}
       <nav className="fixed top-0 left-0 right-0 z-20 backdrop-blur-xl bg-black/40 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="font-bold text-xl sm:text-2xl hover:text-gray-300 transition">
-            RaceUp
-          </Link>
+          <Link href="/" className="flex items-center gap-2 group">
+  <img
+    src="/logo.png"
+    alt="RaceUp Logo"
+    className="w-16 h-16 object-contain"
+  />
+
+  <span className="font-script text-white text-2xl font-bold drop-shadow-lg group-hover:text-gray-300 transition">
+    RaceUp
+  </span>
+</Link>
+
           <Link 
             href="/" 
             className="flex items-center gap-2 text-gray-300 hover:text-white transition text-sm sm:text-base"
