@@ -1,6 +1,6 @@
 
 <div align="center" style="display: flex; align-items: center; justify-content: center;">
-  <img src="https://github.com/devsujandas/raceup/blob/main/public/logo.png?raw=true" width="105" alt="WearoFit Logo" style="margin-right: 6px;" />
+  <img src="https://github.com/devsujandas/raceup/blob/main/public/logo.png?raw=true" width="200" alt="WearoFit Logo" style="margin-right: 6px;" />
 
   <div style="margin-left: 6px;">
     <h1>WearoFit</h1>
