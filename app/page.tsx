@@ -73,9 +73,14 @@ export default function Home() {
       <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-10 py-5">
 
         {/* Logo */}
-        <Link href="/" className="font-script text-white text-2xl font-bold drop-shadow-lg hover:text-gray-300 transition">
-          RaceUp
-        </Link>
+        <Link
+  href="/"
+  className="font-bold drop-shadow-lg hover:opacity-90 transition flex items-end gap-1"
+>
+  <span className="text-white text-2xl font-script">Race</span>
+  <span className="text-yellow-400 text-3xl font-script leading-none">Up</span>
+</Link>
+
 
         {/* Menu Button */}
         <button 
@@ -148,36 +153,53 @@ export default function Home() {
 
       {/* Pagination Styles */}
       <style jsx>{`
-        :global(.swiper-pagination) {
-          position: absolute;
-          right: 40px;
-          height: 200px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          width: auto;
-        }
-        :global(.swiper-pagination-bullet) {
-          width: 50px;
-          height: 50px;
-          background: none;
-          color: white;
-          opacity: 0.5;
-          display: grid;
-          place-items: center;
-          font-family: Poppins, sans-serif;
-          margin: 0;
-        }
-        :global(.swiper-pagination-bullet span) {
-          font-size: 14px;
-        }
-        :global(.swiper-pagination-bullet-active) {
-          opacity: 1;
-          font-size: 18px;
-          border: 1px solid white;
-          border-radius: 50%;
-        }
-      `}</style>
+  /* Pagination Container */
+  :global(.swiper-pagination) {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;                /* premium balanced spacing */
+    z-index: 50;
+  }
+
+  /* Inactive Items (01, 03) */
+  :global(.swiper-pagination-bullet) {
+    background: transparent !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 2px 0;           /* perfect vertical alignment */
+    color: #b3b3b3 !important; /* softer grey for premium feel */
+    opacity: 1 !important;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;    /* premium micro-kerning */
+    transition: all .25s ease;
+  }
+
+  /* ACTIVE Bullet (the oval) */
+  :global(.swiper-pagination-bullet-active) {
+    padding: 8px 22px;        /* perfect oval shape */
+    border: 2px solid #ffffff;
+    border-radius: 999px;
+    color: #ffffff !important;
+    background: transparent !important;
+    font-size: 17px !important;
+    font-weight: 700;
+    letter-spacing: 0.7px;    /* slight wide tracking = premium */
+    transform: translateX(3px); /* small push for subtle focus */
+    transition: all .28s ease;  /* smoother transition */
+  }
+
+  /* Number inside bullet */
+  :global(.swiper-pagination-bullet span) {
+    display: inline-block;
+    transform: translateY(1px); /* visually centered text */
+  }
+`}</style>
+
     </main>
   )
 }
