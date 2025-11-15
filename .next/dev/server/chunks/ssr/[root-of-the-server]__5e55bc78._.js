@@ -70,7 +70,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: 'JoinRace - Premium Car Showcase',
+    title: 'RaceUp - Premium Car Showcase',
     description: 'Experience the ultimate collection of luxury and classic cars.',
     authors: [
         {
@@ -86,20 +86,20 @@ const metadata = {
         'Luxury Cars',
         'Supercars',
         '3D Animation',
-        'JoinRace',
+        'RaceUp',
         'Sujan Das Portfolio'
     ],
     openGraph: {
-        title: 'JoinRace - Premium Car Showcase',
+        title: 'RaceUp - Premium Car Showcase',
         description: 'Explore premium cars with immersive visuals and animations.',
         url: 'https://sujandas.info',
-        siteName: 'JoinRace',
+        siteName: 'RaceUp',
         images: [
             {
                 url: '/icon.svg',
                 width: 1200,
                 height: 630,
-                alt: 'JoinRace Car Showcase'
+                alt: 'RaceUp Car Showcase'
             }
         ],
         type: 'website'

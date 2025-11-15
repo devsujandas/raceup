@@ -6,7 +6,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'JoinRace - Premium Car Showcase',
+  title: 'RaceUp - Premium Car Showcase',
   description: 'Experience the ultimate collection of luxury and classic cars.',
   authors: [{ name: 'Sujan Das', url: 'https://sujandas.info' }],
   creator: 'Sujan Das',
@@ -17,20 +17,20 @@ export const metadata: Metadata = {
     'Luxury Cars',
     'Supercars',
     '3D Animation',
-    'JoinRace',
+    'RaceUp',
     'Sujan Das Portfolio'
   ],
   openGraph: {
-    title: 'JoinRace - Premium Car Showcase',
+    title: 'RaceUp - Premium Car Showcase',
     description: 'Explore premium cars with immersive visuals and animations.',
     url: 'https://sujandas.info',
-    siteName: 'JoinRace',
+    siteName: 'RaceUp',
     images: [
       {
         url: '/icon.svg',
         width: 1200,
         height: 630,
-        alt: 'JoinRace Car Showcase'
+        alt: 'RaceUp Car Showcase'
       }
     ],
     type: 'website',

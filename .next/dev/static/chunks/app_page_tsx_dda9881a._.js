@@ -438,28 +438,27 @@ function CarSlide({ car }) {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: `
     absolute 
-    bottom-16   /* bottom-10 → bottom-16 (just a bit higher) */
-
+    bottom-24   /* moved UP */
     left-1/2 md:left-2/5
     -translate-x-1/2 md:translate-x-0
 
-    flex 
-    items-center 
-    gap-4 md:gap-16 
+    flex flex-col sm:flex-row
+    items-center
+    gap-2 sm:gap-6 md:gap-10
+
+    text-white   /* white text */
     text-xs sm:text-sm md:text-base
-    font-semibold 
-    ${textColorClass}
+    font-semibold
   `,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-muted",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                         children: "302"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 239,
-                                        columnNumber: 32
+                                        columnNumber: 9
                                     }, this),
                                     " MPH"
                                 ]
@@ -469,14 +468,13 @@ function CarSlide({ car }) {
                                 columnNumber: 3
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-muted",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                         children: "0-100"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 240,
-                                        columnNumber: 32
+                                        columnNumber: 9
                                     }, this),
                                     " KMPH"
                                 ]
@@ -486,14 +484,13 @@ function CarSlide({ car }) {
                                 columnNumber: 3
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-muted",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                         children: "350"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 241,
-                                        columnNumber: 32
+                                        columnNumber: 9
                                     }, this),
                                     " KW"
                                 ]
@@ -504,24 +501,30 @@ function CarSlide({ car }) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: `/cars/${car.id}`,
-                                className: `px-5 sm:px-6 md:px-10 py-1.5 md:py-2 rounded-full border ${textColorClass}
+                                className: `
+      px-5 sm:px-7 md:px-10 
+      py-1.5 md:py-2 
+      rounded-full border border-white
+      text-white
+
       hover:bg-white/10 
       transition-all 
-      duration-300 
-      flex 
-      items-center 
-      gap-2 
+      duration-300
+
+      flex items-center gap-2
       whitespace-nowrap
       no-underline
+
+      mt-2 sm:mt-0   /* mobile spacing fix */
     `,
                                 children: [
-                                    "Discover Now ",
+                                    "Discover Now",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
                                         className: "fas fa-arrow-right text-xs sm:text-sm"
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
-                                        lineNumber: 256,
-                                        columnNumber: 18
+                                        lineNumber: 263,
+                                        columnNumber: 5
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -533,7 +536,7 @@ function CarSlide({ car }) {
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 223,
-                        columnNumber: 2
+                        columnNumber: 1
                     }, this)
                 ]
             }, void 0, true, {

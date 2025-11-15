@@ -24,3 +24,18 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 [00:18:06.883] Server  LOG      ✓ Compiled in 117ms
 [00:18:26.366] Server  LOG      ✓ Compiled in 101ms
 [00:18:30.303] Server  LOG      ✓ Compiled in 85ms
+[00:32:45.475] Server  LOG      ✓ Compiled in 169ms
+[00:35:44.201] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:52.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:26.760] Server  LOG      ✓ Compiled in 121ms
+[00:37:31.685] Server  LOG      ✓ Compiled in 133ms
+[00:38:29.525] Server  LOG      ✓ Compiled in 100ms
+[00:38:59.626] Server  LOG      ✓ Compiled in 130ms
+[00:40:31.269] Server  LOG      ✓ Compiled in 264ms
+[00:40:52.559] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:07.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:06.263] Server  LOG      ✓ Compiled in 112ms
+[00:42:07.765] Server  LOG      ✓ Compiled in 205ms
+[00:42:40.964] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:41.090] Browser ERROR   unhandledRejection: Error: Failed to load chunk /_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_c8c997ce._.js from module [turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript, async loader)
+[00:42:47.217] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

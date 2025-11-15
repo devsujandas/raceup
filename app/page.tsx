@@ -98,7 +98,7 @@ export default function Home() {
         )}
       </nav>
 
-      {/* Social */}
+
       {/* Social */}
 <div className="absolute top-24 left-10 z-20 flex flex-col items-center gap-4">
   <div className="w-px h-72 bg-white"></div>
@@ -219,43 +219,51 @@ function CarSlide({ car }: { car: (typeof cars)[0] }) {
         </div>
 
 
-        {/* Specs */}
- <div
+{/* Specs */}
+<div
   className={`
     absolute 
-    bottom-16   /* bottom-10 → bottom-16 (just a bit higher) */
-
+    bottom-24   /* moved UP */
     left-1/2 md:left-2/5
     -translate-x-1/2 md:translate-x-0
 
-    flex 
-    items-center 
-    gap-4 md:gap-16 
+    flex flex-col sm:flex-row
+    items-center
+    gap-2 sm:gap-6 md:gap-10
+
+    text-white   /* white text */
     text-xs sm:text-sm md:text-base
-    font-semibold 
-    ${textColorClass}
+    font-semibold
   `}
 >
-  <span className="text-muted"><b>302</b> MPH</span>
-  <span className="text-muted"><b>0-100</b> KMPH</span>
-  <span className="text-muted"><b>350</b> KW</span>
+  <span><b>302</b> MPH</span>
+  <span><b>0-100</b> KMPH</span>
+  <span><b>350</b> KW</span>
 
   <Link
     href={`/cars/${car.id}`}
-    className={`px-5 sm:px-6 md:px-10 py-1.5 md:py-2 rounded-full border ${textColorClass}
+    className={`
+      px-5 sm:px-7 md:px-10 
+      py-1.5 md:py-2 
+      rounded-full border border-white
+      text-white
+
       hover:bg-white/10 
       transition-all 
-      duration-300 
-      flex 
-      items-center 
-      gap-2 
+      duration-300
+
+      flex items-center gap-2
       whitespace-nowrap
       no-underline
+
+      mt-2 sm:mt-0   /* mobile spacing fix */
     `}
   >
-    Discover Now <i className="fas fa-arrow-right text-xs sm:text-sm"></i>
+    Discover Now 
+    <i className="fas fa-arrow-right text-xs sm:text-sm"></i>
   </Link>
 </div>
+
 
 
 
