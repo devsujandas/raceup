@@ -59,28 +59,31 @@ export default function CarPage() {
     <main className="min-h-screen bg-black text-white">
       
       {/* NAVBAR */}
-      <nav className="fixed top-0 left-0 right-0 z-20 backdrop-blur-xl bg-black/40 border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-center  group">
-  <img
-    src="/logo.png"
-    alt="RaceUp Logo"
-    className="w-16 h-16 object-contain"
-  />
+<nav className="fixed top-0 left-0 right-0 z-20">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 py-5 flex justify-end">
+    
+    <Link
+      href="/"
+      className="flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-4 py-2 
+                 text-white/80 hover:text-white hover:bg-white/10 transition backdrop-blur-md"
+    >
+      <svg 
+        xmlns="http://www.w3.org/2000/svg" 
+        fill="none" 
+        viewBox="0 0 24 24" 
+        strokeWidth={1.5} 
+        stroke="currentColor" 
+        className="w-5 h-5"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
 
-  <span className="font-script text-green-700 text-2xl font-bold drop-shadow-lg group-hover:text-gray-300 transition">
-    RaceUp
-  </span>
-</Link>
+      <span className="hidden sm:inline font-medium">Back</span>
+    </Link>
 
-          <Link 
-            href="/" 
-            className="flex items-center gap-2 text-gray-300 hover:text-white transition text-sm sm:text-base"
-          >
-            <i className="fas fa-arrow-left"></i> <span className="hidden sm:inline">Back</span>
-          </Link>
-        </div>
-      </nav>
+  </div>
+</nav>
+
 
       {/* HERO */}
       <section className="pt-24 pb-12 relative overflow-hidden">

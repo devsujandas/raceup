@@ -30,3 +30,15 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 [00:10:53.446] Server  LOG      ✓ Compiled in 263ms
 [00:10:56.038] Server  LOG      ✓ Compiled in 272ms
 [00:12:52.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:01.989] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:16.186] Server  LOG      ✓ Compiled in 309ms
+[00:53:05.972] Server  LOG      ✓ Compiled in 147ms
+[00:53:07.684] Server  LOG      ✓ Compiled in 378ms
+[00:53:12.527] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:15.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:42.011] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:26.175] Server  LOG      ✓ Compiled in 115ms
+[00:54:27.512] Server  LOG      ✓ Compiled in 182ms
+[00:54:36.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:18.020] Server  LOG      ✓ Compiled in 111ms
+[00:55:19.129] Server  LOG      ✓ Compiled in 113ms
