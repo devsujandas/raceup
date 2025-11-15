@@ -73,14 +73,9 @@ export default function Home() {
       <nav className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-10 py-5">
 
         {/* Logo */}
-        <Link
-  href="/"
-  className="font-bold drop-shadow-lg hover:opacity-90 transition flex items-end gap-1"
->
-  <span className="text-white text-2xl font-script">Race</span>
-  <span className="text-yellow-400 text-3xl font-script leading-none">Up</span>
-</Link>
-
+        <Link href="/" className="font-script text-white text-2xl font-bold drop-shadow-lg hover:text-gray-300 transition">
+          RaceUp
+        </Link>
 
         {/* Menu Button */}
         <button 
