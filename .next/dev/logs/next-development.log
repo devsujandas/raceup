@@ -29,3 +29,4 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 [00:10:49.531] Server  LOG      ✓ Compiled in 226ms
 [00:10:53.446] Server  LOG      ✓ Compiled in 263ms
 [00:10:56.038] Server  LOG      ✓ Compiled in 272ms
+[00:12:52.850] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
