@@ -71,8 +71,39 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 const metadata = {
     title: 'JoinRace - Premium Car Showcase',
-    description: 'Experience the ultimate collection of luxury and classic cars',
-    generator: 'v0.app',
+    description: 'Experience the ultimate collection of luxury and classic cars.',
+    authors: [
+        {
+            name: 'Sujan Das',
+            url: 'https://sujandas.info'
+        }
+    ],
+    creator: 'Sujan Das',
+    publisher: 'Sujan Das',
+    metadataBase: new URL('https://sujandas.info'),
+    keywords: [
+        'Car Showcase',
+        'Luxury Cars',
+        'Supercars',
+        '3D Animation',
+        'JoinRace',
+        'Sujan Das Portfolio'
+    ],
+    openGraph: {
+        title: 'JoinRace - Premium Car Showcase',
+        description: 'Explore premium cars with immersive visuals and animations.',
+        url: 'https://sujandas.info',
+        siteName: 'JoinRace',
+        images: [
+            {
+                url: '/icon.svg',
+                width: 1200,
+                height: 630,
+                alt: 'JoinRace Car Showcase'
+            }
+        ],
+        type: 'website'
+    },
     icons: {
         icon: [
             {
@@ -101,26 +132,26 @@ function RootLayout({ children }) {
                     href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 39,
+                    lineNumber: 65,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 38,
+                lineNumber: 64,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
-                className: `font-sans antialiased`,
+                className: "font-sans antialiased",
                 children: children
             }, void 0, false, {
                 fileName: "[project]/app/layout.tsx",
-                lineNumber: 41,
+                lineNumber: 70,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 37,
+        lineNumber: 63,
         columnNumber: 5
     }, this);
 }

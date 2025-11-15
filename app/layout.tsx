@@ -7,8 +7,34 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: 'JoinRace - Premium Car Showcase',
-  description: 'Experience the ultimate collection of luxury and classic cars',
-  generator: 'v0.app',
+  description: 'Experience the ultimate collection of luxury and classic cars.',
+  authors: [{ name: 'Sujan Das', url: 'https://sujandas.info' }],
+  creator: 'Sujan Das',
+  publisher: 'Sujan Das',
+  metadataBase: new URL('https://sujandas.info'),
+  keywords: [
+    'Car Showcase',
+    'Luxury Cars',
+    'Supercars',
+    '3D Animation',
+    'JoinRace',
+    'Sujan Das Portfolio'
+  ],
+  openGraph: {
+    title: 'JoinRace - Premium Car Showcase',
+    description: 'Explore premium cars with immersive visuals and animations.',
+    url: 'https://sujandas.info',
+    siteName: 'JoinRace',
+    images: [
+      {
+        url: '/icon.svg',
+        width: 1200,
+        height: 630,
+        alt: 'JoinRace Car Showcase'
+      }
+    ],
+    type: 'website',
+  },
   icons: {
     icon: [
       {
@@ -36,9 +62,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link 
+          rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+        />
       </head>
-      <body className={`font-sans antialiased`}>
+      <body className="font-sans antialiased">
         {children}
       </body>
     </html>

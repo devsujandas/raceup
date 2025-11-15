@@ -100,10 +100,12 @@
     --color-yellow-300: #ffe02a;
     --color-yellow-400: #fac800;
     --color-yellow-600: #cd8900;
+    --color-cyan-300: #53eafd;
     --color-cyan-400: #00d2ef;
     --color-blue-600: #155dfc;
     --color-gray-300: #d1d5dc;
     --color-gray-400: #99a1af;
+    --color-gray-500: #6a7282;
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
@@ -171,10 +173,12 @@
       --color-yellow-300: lab(89.7033% -.480324 84.4917);
       --color-yellow-400: lab(83.2664% 8.65132 106.895);
       --color-yellow-600: lab(62.7799% 22.4198 86.1544);
+      --color-cyan-300: lab(85.3886% -36.7635 -21.5717);
       --color-cyan-400: lab(76.6045% -40.9406 -29.6231);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-gray-300: lab(85.1236% -.612259 -3.7138);
       --color-gray-400: lab(65.9269% -.832707 -8.17474);
+      --color-gray-500: lab(47.7841% -.393212 -10.0268);
     }
   }
 }
@@ -2277,6 +2281,10 @@
     color: var(--color-gray-400);
   }
 
+  .text-gray-500 {
+    color: var(--color-gray-500);
+  }
+
   .text-muted {
     color: var(--muted);
   }
@@ -2334,6 +2342,10 @@
 
   .no-underline {
     text-decoration-line: none;
+  }
+
+  .underline {
+    text-decoration-line: underline;
   }
 
   .underline-offset-4 {
@@ -3091,6 +3103,12 @@
   @media (hover: hover) {
     .hover\:text-accent-foreground:hover {
       color: var(--accent-foreground);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:text-cyan-300:hover {
+      color: var(--color-cyan-300);
     }
   }
 
