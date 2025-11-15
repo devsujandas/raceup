@@ -184,6 +184,10 @@
     --color-yellow-300: #ffe02a;
     --color-yellow-400: #fac800;
     --color-yellow-600: #cd8900;
+    --color-green-400: #05df72;
+    --color-green-500: #00c758;
+    --color-green-700: #008138;
+    --color-green-800: #016630;
     --color-cyan-400: #00d2ef;
     --color-blue-600: #155dfc;
     --color-gray-300: #d1d5dc;
@@ -256,6 +260,10 @@
       --color-yellow-300: lab(89.7033% -.480324 84.4917);
       --color-yellow-400: lab(83.2664% 8.65132 106.895);
       --color-yellow-600: lab(62.7799% 22.4198 86.1544);
+      --color-green-400: lab(78.503% -64.9265 39.7492);
+      --color-green-500: lab(70.5521% -66.5147 45.8072);
+      --color-green-700: lab(47.0329% -47.0239 31.4788);
+      --color-green-800: lab(37.4616% -36.7971 22.9692);
       --color-cyan-400: lab(76.6045% -40.9406 -29.6231);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-gray-300: lab(85.1236% -.612259 -3.7138);
@@ -2393,6 +2401,22 @@
 
   .text-gray-500 {
     color: var(--color-gray-500);
+  }
+
+  .text-green-400 {
+    color: var(--color-green-400);
+  }
+
+  .text-green-500 {
+    color: var(--color-green-500);
+  }
+
+  .text-green-700 {
+    color: var(--color-green-700);
+  }
+
+  .text-green-800 {
+    color: var(--color-green-800);
   }
 
   .text-muted-foreground {
