@@ -15,7 +15,7 @@ const cars = [
     id: 'lamborghini',
     name: 'Lamborghini Aventador',
     color: 'yellow',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-1-D1vxyfnozhmD6YPul1K4gXEGz3U3nO.png',
+    image: '/cars/img-1.png',
     specs: { speed: '302 MPH', acceleration: '0-100 KMPH', power: '350 KW' }
   },
   {
@@ -75,9 +75,9 @@ export default function Home() {
         {/* Logo */}
 <Link href="/" className="flex items-center - group">
   <img
-    src="/logo.png"
+    src="/logo-icon.png"
     alt="RaceUp Logo"
-    className="w-16 h-16 object-contain"
+    className="w-10 h-10 object-contain"
   />
 
   <span className="font-script text-white text-2xl font-bold drop-shadow-lg group-hover:text-gray-300 transition">

@@ -4,7 +4,7 @@
       "id": "lamborghini",
       "name": "Lamborghini Aventador",
       "color": "yellow",
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-1-D1vxyfnozhmD6YPul1K4gXEGz3U3nO.png",
+      "image": "/cars/img-1.png",
       "description": "The Lamborghini Aventador is a masterpiece of Italian engineering, representing the pinnacle of supercar performance and design.",
       "specs": [
         { "label": "Top Speed", "value": "302 MPH" },
