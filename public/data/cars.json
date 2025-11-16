@@ -29,7 +29,7 @@
       "id": "bugatti",
       "name": "Bugatti Chiron",
       "color": "blue",
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-3-6fAcWNdizNQI666CQ0BwxgICZ5vXHm.png",
+      "image": "/cars/img-2.png",
       "description": "The Bugatti Chiron is the definition of hyperluxury and performance, combining breathtaking speed with unrivaled comfort.",
       "specs": [
         { "label": "Top Speed", "value": "304 MPH" },
@@ -54,7 +54,7 @@
       "id": "cadillac",
       "name": "Classic Cadillac",
       "color": "red",
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-2-fIVaahs7xYCqzjhl9wmMoJZ97Oz3w5.png",
+      "image": "/cars/img-3.png",
       "description": "A timeless classic that defined American automotive excellence and continues to captivate enthusiasts worldwide.",
       "specs": [
         { "label": "Top Speed", "value": "180 MPH" },

@@ -22,14 +22,14 @@ const cars = [
     id: 'cadillac',
     name: 'Classic Cadillac',
     color: 'red',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-2-fIVaahs7xYCqzjhl9wmMoJZ97Oz3w5.png',
+    image: '/cars/img-2.png',
     specs: { speed: '302 MPH', acceleration: '0-100 KMPH', power: '350 KW' }
   },
   {
     id: 'bugatti',
     name: 'Bugatti Chiron',
     color: 'blue',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img-3-6fAcWNdizNQI666CQ0BwxgICZ5vXHm.png',
+    image: '/cars/img-3.png',
     specs: { speed: '302 MPH', acceleration: '0-100 KMPH', power: '350 KW' }
   }
 ]
